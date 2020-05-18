@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672655514,
-	"viewrect" : [ 1167.0, 277.0, 300.0, 500.0 ],
+	"modificationdate" : 3672658669,
+	"viewrect" : [ 109.0, 521.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,17 @@
 				"toplevel" : 1
 			}
 ,
+			"TransportComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"TransportComponent.maxpat" : 			{
+			"SamplerComponentCollecter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

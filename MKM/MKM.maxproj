@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672658669,
+	"modificationdate" : 3672667972,
 	"viewrect" : [ 109.0, 521.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,12 +21,12 @@
 				"local" : 1
 			}
 ,
-			"SamplerComponent.maxpat" : 			{
+			"SamplerComponentCollecter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"SamplerComponentCollecter.maxpat" : 			{
+			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -55,6 +55,11 @@
 			}
 ,
 			"TransportRecord-01-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"ConfigureWheel-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

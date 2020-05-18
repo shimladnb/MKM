@@ -39,6 +39,21 @@
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 0.5,
+					"id" : "obj-5",
+					"justification" : 1,
+					"linecolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 225.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 4.0, 615.0, 128.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,

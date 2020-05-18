@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672644639,
-	"viewrect" : [ 209.0, 295.0, 300.0, 500.0 ],
+	"modificationdate" : 3672655514,
+	"viewrect" : [ 1167.0, 277.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,6 +18,39 @@
 ,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"TransportComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"TransportPlay-01-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"TransportStop-01-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"TransportRewind-01-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"TransportForward-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"TransportRecord-01-01.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 

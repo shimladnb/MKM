@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 878.0, 143.0, 840.0, 904.0 ],
+		"rect" : [ 479.0, 114.0, 1585.0, 949.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3213,24 +3213,6 @@
 									}
 ,
 									"text" : "p View"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 270.0,
-									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ],
-									"id" : "obj-1",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 225.0, 31.75, 30.0, 38.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 350.0, 4.0, 25.0, 25.0 ],
-									"proportion" : 0.5
 								}
 
 							}
@@ -10682,9 +10664,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 390.0, 285.0, 45.0, 45.0 ],
+					"patching_rect" : [ 450.5, 285.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.5, 45.0, 69.0, 64.0 ]
+					"presentation_rect" : [ 724.0, 45.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -10886,9 +10868,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 390.0, 285.0, 45.0, 45.0 ],
-					"pic" : "ConfigureWheel-01.png",
+					"pic" : "ConfigureWheel-01-50px.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 710.0, 45.0, 64.0, 64.0 ]
+					"presentation_rect" : [ 724.0, 45.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -18703,7 +18685,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 375.0, 50.0, 36.0 ],
-									"text" : "mouseY 143"
+									"text" : "mouseY 114"
 								}
 
 							}
@@ -33594,24 +33576,6 @@
 							}
 , 							{
 								"box" : 								{
-									"angle" : 270.0,
-									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.941176470588235, 0.690196078431373, 0.196078431372549, 1.0 ],
-									"id" : "obj-1",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 90.0, 480.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 350.0, 4.0, 25.0, 25.0 ],
-									"proportion" : 0.5
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"color" : [ 0.701960784313725, 0.811764705882353, 0.301960784313725, 1.0 ],
 									"id" : "obj-82",
 									"maxclass" : "newobj",
@@ -41948,7 +41912,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 309.30548095703125, 245.172409057617188, 127.0, 23.0 ],
-									"text" : "878 143 1718 1047"
+									"text" : "980 114 1820 1018"
 								}
 
 							}
@@ -44225,7 +44189,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.5, 195.0, 45.0, 37.0 ],
+					"patching_rect" : [ 8.5, 180.0, 45.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 840.0, 900.0 ],
 					"proportion" : 0.5
@@ -44545,21 +44509,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SamplerComponent.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sh.mutex.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ConfigureWheel-01.png",
+				"name" : "ConfigureWheel-01-50px.png",
 				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
@@ -48433,7 +48383,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
+		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

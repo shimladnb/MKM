@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672740657,
+	"modificationdate" : 3672751230,
 	"viewrect" : [ 109.0, 521.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,16 @@
 			}
 ,
 			"SamplerComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sh.mutex.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sh.mutexSlice.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
+		"rect" : [ 699.0, 94.0, 840.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -333,7 +333,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "cleanSubPatcher",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.941176470588235, 0.690196078431373, 0.196078431372549, 1.0 ],
@@ -7844,7 +7843,7 @@
 , 			{
 				"box" : 				{
 					"handoff" : "",
-					"hltcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.501960784313725 ],
+					"hltcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"id" : "obj-86",
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
@@ -7911,7 +7910,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 375.0, 50.0, 36.0 ],
-									"text" : "mouseY 104"
+									"text" : "mouseY 94"
 								}
 
 							}
@@ -31156,7 +31155,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 309.30548095703125, 245.172409057617188, 127.0, 23.0 ],
-									"text" : "814 104 1654 1008"
+									"text" : "699 94 1539 998"
 								}
 
 							}
@@ -37559,7 +37558,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

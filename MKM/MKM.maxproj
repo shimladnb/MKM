@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672729298,
+	"modificationdate" : 3672740657,
 	"viewrect" : [ 109.0, 521.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -59,12 +59,12 @@
 				"local" : 1
 			}
 ,
-			"ConfigureWheel-01.png" : 			{
+			"TransportPauze-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"TransportPauze-01.png" : 			{
+			"ConfigureWheel-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

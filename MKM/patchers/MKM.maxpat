@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
+		"rect" : [ 1060.0, 111.0, 840.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3871,7 +3871,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "cleanSubPatcher",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -3880,7 +3879,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 255.0, 398.0, 36.0 ],
+									"patching_rect" : [ 255.0, 255.0, 401.0, 36.0 ],
 									"text" : "set Great! now just select a track which you want to mute so you can play over it"
 								}
 
@@ -3905,8 +3904,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.0, 340.0, 438.0, 22.0 ],
-									"text" : "loadmess set Welcome to MKM\\, please open a folder containing your Multitracks"
+									"patching_rect" : [ 285.0, 340.0, 394.0, 22.0 ],
+									"text" : "loadmess set Welcome! Please open a folder containing your Multitracks"
 								}
 
 							}
@@ -11384,17 +11383,18 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
+					"fontface" : 0,
+					"fontname" : "Lato",
 					"id" : "obj-24",
-					"linecount" : 5,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 540.0, 100.0, 50.0 ],
+					"patching_rect" : [ 16.0, 540.0, 101.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 196.0, 735.0, 22.0 ],
-					"text" : "Welcome to MKM\\, please open a folder containing your Multitracks",
+					"presentation_rect" : [ 30.0, 196.0, 730.0, 22.0 ],
+					"text" : "No track selected",
 					"textcolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ]
 				}
 
@@ -61343,7 +61343,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

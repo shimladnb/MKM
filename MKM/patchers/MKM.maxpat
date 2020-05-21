@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1060.0, 111.0, 840.0, 904.0 ],
+		"rect" : [ 1042.0, 10.0, 840.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3952,7 +3952,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 165.0, 50.0, 22.0 ],
-									"text" : "1 0"
+									"text" : "19 0"
 								}
 
 							}
@@ -35799,7 +35799,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 375.0, 50.0, 36.0 ],
-									"text" : "mouseY 111"
+									"text" : "mouseY 10"
 								}
 
 							}
@@ -59026,7 +59026,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 309.30548095703125, 245.172409057617188, 127.0, 23.0 ],
-									"text" : "1060 111 1900 1015"
+									"text" : "1042 10 1882 914"
 								}
 
 							}

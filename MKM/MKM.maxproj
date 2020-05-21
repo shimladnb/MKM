@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3672910932,
+	"modificationdate" : 3672915176,
 	"viewrect" : [ 48.0, 162.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,6 +26,11 @@
 				"local" : 1
 			}
 ,
+			"Convolution Reverb.amxd" : 			{
+				"kind" : "maxforlive",
+				"local" : 1
+			}
+,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -40,20 +45,10 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"Convolution Reverb.amxd" : 			{
-				"kind" : "maxforlive",
-				"local" : 1
-			}
 
 		}
 ,
 		"media" : 		{
-			"Microphone-01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"TransportPlay-01-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -89,12 +84,12 @@
 				"local" : 1
 			}
 ,
-			"ConfigureWheel-01.png" : 			{
+			"Microphone-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"Microphone-01-smoll.png" : 			{
+			"ConfigureWheel-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -104,7 +99,12 @@
 		"code" : 		{
 			"interface_eq.js" : 			{
 				"kind" : "javascript",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
@@ -120,42 +120,82 @@
 		"externals" : 		{
 			"spectrumdraw~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"iraverage~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"recursivefolder.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"irdisplay~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"morphfilter~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"irstats~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"bufresample~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"multiconvolve~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}

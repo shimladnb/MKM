@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
+		"rect" : [ 868.0, 128.0, 840.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,166 @@
 		"style" : "",
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-20",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 315.0, 547.0, 100.0, 100.0 ],
+					"pic" : "Microphone-01-smoll.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 666.0, 45.0, 50.0, 50.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 555.0, 603.0, 680.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"patchername" : "Convolution Reverb.amxd",
+						"patchername_fallback" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers/Convolution Reverb.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Convolution Reverb.amxd",
+							"origname" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers/Convolution Reverb.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"Dry/Wet" : 50.0,
+									"EQ Hi Freq" : 15539.037547531752352,
+									"EQ Hi Gain" : 0.0,
+									"EQ Hi Gain[1]" : 1.0,
+									"EQ Hi S" : 1.0,
+									"EQ Lo Freq" : 4519.371734054848275,
+									"EQ Lo Gain" : 0.0,
+									"EQ Lo S" : 1.0,
+									"EQ Mid Freq" : 8691.717025163834478,
+									"EQ Mid Gain" : 0.0,
+									"EQ Mid Q" : 0.71,
+									"Gain" : 0.0,
+									"Predelay" : 0.0,
+									"Width" : 100.0,
+									"blob" : 									{
+										"Decay" : [ 100 ],
+										"PersistenceA" : [ "" ],
+										"Size" : [ 100 ],
+										"live.text" : [ 0 ],
+										"PersistenceB" : [ "" ],
+										"Tab Open" : [ 1 ],
+										"PersistenceC" : [ "" ],
+										"Drop A" : [ "" ]
+									}
+
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Convolution Reverb.amxd",
+									"origin" : "Convolution Reverb.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Convolution Reverb.amxd",
+										"origname" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers/Convolution Reverb.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"Dry/Wet" : 50.0,
+												"EQ Hi Freq" : 15539.037547531752352,
+												"EQ Hi Gain" : 0.0,
+												"EQ Hi Gain[1]" : 1.0,
+												"EQ Hi S" : 1.0,
+												"EQ Lo Freq" : 4519.371734054848275,
+												"EQ Lo Gain" : 0.0,
+												"EQ Lo S" : 1.0,
+												"EQ Mid Freq" : 8691.717025163834478,
+												"EQ Mid Gain" : 0.0,
+												"EQ Mid Q" : 0.71,
+												"Gain" : 0.0,
+												"Predelay" : 0.0,
+												"Width" : 100.0,
+												"blob" : 												{
+													"Decay" : [ 100 ],
+													"PersistenceA" : [ "" ],
+													"Size" : [ 100 ],
+													"live.text" : [ 0 ],
+													"PersistenceB" : [ "" ],
+													"Tab Open" : [ 1 ],
+													"PersistenceC" : [ "" ],
+													"Drop A" : [ "" ]
+												}
+
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Convolution Reverb.amxd",
+										"filename" : "Convolution Reverb.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "c387beb9292e15fa31dba57208d7ccea"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "amxd~ \"Convolution Reverb.amxd\"",
+					"varname" : "amxd~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-18",
@@ -3952,7 +4112,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 165.0, 50.0, 22.0 ],
-									"text" : "1 0"
+									"text" : "2 0"
 								}
 
 							}
@@ -11480,6 +11640,7 @@
 					"fontface" : 0,
 					"fontname" : "Lato",
 					"id" : "obj-24",
+					"linecount" : 4,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -11488,7 +11649,7 @@
 					"patching_rect" : [ 16.0, 540.0, 101.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 196.0, 730.0, 22.0 ],
-					"text" : "No track selected",
+					"text" : "Welcome! Please open a folder containing your Multitracks",
 					"textcolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ]
 				}
 
@@ -11516,7 +11677,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1005.0, 540.0, 270.0, 186.0 ],
+					"patching_rect" : [ 1305.0, 135.0, 270.0, 186.0 ],
 					"text" : "todo: \n\n- mutex sampler switcher DONE\n- switcher mutes audio DONE\n- record own track\n- hear own track when switcher is activated\n- good reverb\n- folder text info box\n- write info box\n- visual audio monitoring in config window\n- configuration window DONE\n- transport skip back & forth DONE\n- rewind track when finished DONE"
 				}
 
@@ -27895,7 +28056,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 103.0, 32.5, 37.0 ],
+					"patching_rect" : [ 302.0, 103.0, 32.5, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 724.0, 45.0, 50.0, 50.0 ]
 				}
@@ -35799,7 +35960,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 375.0, 50.0, 36.0 ],
-									"text" : "mouseY 10"
+									"text" : "mouseY 128"
 								}
 
 							}
@@ -59026,7 +59187,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 309.30548095703125, 245.172409057617188, 127.0, 23.0 ],
-									"text" : "1042 10 1882 914"
+									"text" : "868 128 1708 1032"
 								}
 
 							}
@@ -61541,6 +61702,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-9" : [ "amxd~", "amxd~", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "TransportComponent.maxpat",
 				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
@@ -61598,25 +61767,69 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SamplerComponent.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sh.mutex.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ConfigureWheel-01-50px.png",
 				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Convolution Reverb.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Convolution Reverb.amxd",
+				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "interface_eq.js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Microphone-01-smoll.png",
+				"bootpath" : "~/Pictures/icons",
+				"patcherrelativepath" : "../../../../../Pictures/icons",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spectrumdraw~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "iraverage~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "recursivefolder.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "irdisplay~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "morphfilter~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "irstats~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bufresample~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
@@ -65486,7 +65699,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

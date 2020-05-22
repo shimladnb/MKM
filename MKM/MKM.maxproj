@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673001723,
+	"modificationdate" : 3673007185,
 	"viewrect" : [ 48.0, 162.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"MKM.maxpat" : 			{
+			"1stSplash.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -104,7 +104,12 @@
 ,
 			"interface_eq.js" : 			{
 				"kind" : "javascript",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
@@ -120,42 +125,82 @@
 		"externals" : 		{
 			"spectrumdraw~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"iraverage~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"recursivefolder.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"irdisplay~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"morphfilter~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"irstats~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"bufresample~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"multiconvolve~.mxe64" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 
 		}

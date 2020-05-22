@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673007185,
+	"modificationdate" : 3673011913,
 	"viewrect" : [ 48.0, 162.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,10 +10,15 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"1stSplash.maxpat" : 			{
+			"AbsoluteMain.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"TransportComponent.maxpat" : 			{
@@ -26,6 +31,11 @@
 				"local" : 1
 			}
 ,
+			"Convolution Reverb.amxd" : 			{
+				"kind" : "maxforlive",
+				"local" : 1
+			}
+,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -33,11 +43,6 @@
 ,
 			"sh.mutex.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Convolution Reverb.amxd" : 			{
-				"kind" : "maxforlive",
 				"local" : 1
 			}
 ,

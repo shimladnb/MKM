@@ -39,6 +39,107 @@
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.941176470588235, 0.690196078431373, 0.196078431372549, 1.0 ],
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1350.0, 705.0, 139.0, 22.0 ],
+					"text" : "s userHasSelectedTrack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 1350.0, 645.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1125.0, 630.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.941176470588235, 0.690196078431373, 0.196078431372549, 1.0 ],
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1125.0, 660.0, 112.0, 22.0 ],
+					"text" : "s to1stSplashOffset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"id" : "obj-48",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1215.0, 548.5, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 886.0, 180.0, 60.0, 64.0 ],
+					"proportion" : 0.5,
+					"rounded" : 4
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.68 ],
+					"id" : "obj-49",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1125.0, 550.0, 33.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 886.0, 180.0, 60.0, 64.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 16.52014043165773,
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1125.0, 600.0, 72.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 889.5, 200.0, 53.0, 26.0 ],
+					"text" : "BACK",
+					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
 					"border" : 1,
@@ -50,7 +151,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1440.0, 548.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 903.0, 185.0, 94.0, 64.0 ],
+					"presentation_rect" : [ 948.0, 180.0, 60.0, 64.0 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -68,7 +169,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1350.0, 550.0, 33.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 903.0, 185.0, 94.0, 64.0 ]
+					"presentation_rect" : [ 948.0, 180.0, 60.0, 64.0 ]
 				}
 
 			}
@@ -83,7 +184,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1350.0, 600.0, 72.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 913.5, 205.0, 73.0, 26.0 ],
+					"presentation_rect" : [ 958.5, 200.0, 39.0, 26.0 ],
 					"text" : "OK!",
 					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
 					"textjustification" : 1
@@ -141,7 +242,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1020.0, 690.0, 314.0, 26.0 ],
+					"patching_rect" : [ 1125.0, 765.0, 314.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 803.5, 105.0, 293.0, 26.0 ],
 					"text" : "you've selected:",
@@ -492,7 +593,7 @@
 					"fontsize" : 20.0,
 					"hint" : "",
 					"id" : "obj-12",
-					"items" : [ "01 Acc Gtr NTR.wav", ",", "02 Acc Gtr ELAM.wav", ",", "03 Acc Gtr 2 NTR.wav", ",", "04 Acc Gtr 2 ELAM.wav", ",", "05 Upright 1 67.wav", ",", "06 Upright 1 44.wav", ",", "07 Upright 2 67.wav", ",", "08 Upright 2 44.wav", ",", "09 Bass 1 Reamp.wav", ",", "10 Upright Noise Reamp.wav", ",", "11 Synth 2.wav", ",", "12 Synth Reamp.wav", ",", "13 Vibes.wav", ",", "14 Vibes 2.wav", ",", "15 Vibes Bow 1.wav", ",", "16 Vibes Bow 1x.wav", ",", "17 Vla 1.wav", ",", "18 Vla 2.wav", ",", "19 Vla Reamp 2.wav", ",", "20 Tbone 1.wav", ",", "21 Tbone 1 Coles.wav", ",", "22 Tbone 2.wav", ",", "23 Tbone 2 Coles.wav", ",", "24 Tbone Reamp.wav", ",", "25 LV 84.wav", ",", "26 LV Reamp 1.wav", ",", "27 LV Reamp 2.wav", ",", "28 LV Reamp 3.wav", ",", "29 LV Reamp 4.wav", ",", "30 BV 1 67.wav", ",", "31 BV 2 67.wav", ",", "32 Opera 1.wav", ",", "33 Opera 2.wav", ",", "34 Opera 3.wav", ",", "35 Opera 4.wav", ",", "36 Opera 5.wav", ",", "37 Opera 6.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8373,18 +8474,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 75.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -8412,7 +8501,7 @@
 						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 2,
 						"toptoolbarpinned" : 2,
 						"righttoolbarpinned" : 2,
@@ -8428,6 +8517,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "cleanSubPatcher",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -8460,7 +8550,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1196.5, 492.0, 345.0, 117.0 ],
+									"patching_rect" : [ 1196.5, 492.0, 345.0, 114.0 ],
 									"text" : "OMBOUW: \n\n- laad eerst splash screen met track select zien\n- laat daarnaa alleen de gesecteerde track zien met volume knop \n- transport moet afspeel snelheid hebben\n\n"
 								}
 
@@ -35314,7 +35404,7 @@
 									"fontface" : 0,
 									"fontname" : "Lato",
 									"id" : "obj-24",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -35323,7 +35413,7 @@
 									"patching_rect" : [ 57.5, 627.0, 115.5, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 211.0, 730.0, 22.0 ],
-									"text" : "Great! now just select a track which you want to mute so you can play over it",
+									"text" : "Welcome! Please open a folder containing your Multitracks",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -35351,7 +35441,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1196.5, 240.0, 345.0, 213.0 ],
+									"patching_rect" : [ 1196.5, 240.0, 345.0, 208.0 ],
 									"text" : "todo: \n\n- mutex sampler switcher DONE\n- switcher mutes audio DONE\n- record own track\n- hear own track when switcher is activated DONE\n- good reverb\n- folder text info box\n- write info box DONE\n- visual audio monitoring in config window DONE\n- configuration window DONE\n- transport skip back & forth DONE\n- rewind track when finished DONE\n- load in errors splashscreen\n- adjust samplerate"
 								}
 
@@ -106280,7 +106370,7 @@
 						"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 15.0, 105.0, 75.0, 22.0 ],
+					"patching_rect" : [ 1363.0, 675.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 						"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
@@ -106527,6 +106617,41 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -106543,13 +106668,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-73", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -106628,20 +106746,6 @@
 			}
 , 			{
 				"name" : "SamplerComponentCollecter.maxpat",
-				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SamplerComponent.maxpat",
-				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sh.mutex.maxpat",
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

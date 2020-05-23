@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673108678,
+	"modificationdate" : 3673124379,
 	"viewrect" : [ 1094.0, 271.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -167,10 +167,46 @@
 				"kind" : "object",
 				"local" : 1
 			}
-
-		}
 ,
-		"other" : 		{
+			"spectrumdraw~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"iraverage~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"recursivefolder.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"irdisplay~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"morphfilter~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"irstats~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"bufresample~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"multiconvolve~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
 
 		}
 

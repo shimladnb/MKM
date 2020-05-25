@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673262104,
+	"modificationdate" : 3673265946,
 	"viewrect" : [ 1413.0, 610.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,6 +26,11 @@
 				"local" : 1
 			}
 ,
+			"SamplerComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"SamplerComponentCollecter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -33,11 +38,6 @@
 ,
 			"Convolution Reverb.amxd" : 			{
 				"kind" : "maxforlive",
-				"local" : 1
-			}
-,
-			"SamplerComponent.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,

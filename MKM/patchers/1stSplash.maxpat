@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 79.0, 1585.0, 949.0 ],
+		"rect" : [ -31992.0, -31969.0, 1585.0, 949.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -391,7 +391,7 @@
 					"patching_rect" : [ 1125.0, 498.0, 314.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 768.0, 213.0, 357.0, 26.0 ],
-					"text" : "hobo deel2.wav",
+					"text" : "29 LV Reamp 4.wav",
 					"textcolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ],
 					"textjustification" : 1
 				}
@@ -729,7 +729,7 @@
 					"fontsize" : 20.0,
 					"hint" : "",
 					"id" : "obj-12",
-					"items" : [ "Fagot deel 1.wav", ",", "Fagot deel 2.wav", ",", "hobo deel1.wav", ",", "hobo deel2.wav", ",", "hoorn deel1.wav", ",", "hoorn deel2.wav", ",", "klarinet deel1.wav", ",", "klarinet deel2.wav", ",", "piano deel1.wav", ",", "piano deel2.wav", ",", "zaal deel1.wav", ",", "zaal deel2.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12419,7 +12419,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 8.0, 47.0, 1585.0, 949.0 ],
+						"rect" : [ 550.0, 230.0, 824.0, 345.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12577,7 +12577,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
+										"rect" : [ 1166.0, 200.0, 712.0, 299.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -12729,9 +12729,9 @@
 													"numoutlets" : 4,
 													"offset" : [ 0.0, 0.0 ],
 													"outlettype" : [ "signal", "signal", "", "" ],
-													"patching_rect" : [ 435.0, 420.0, 680.0, 170.0 ],
+													"patching_rect" : [ 435.0, 420.0, 680.0, 196.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 15.0, 60.0, 680.0, 170.0 ],
+													"presentation_rect" : [ 15.0, 60.0, 680.0, 196.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_invisible" : 1,
@@ -47122,11 +47122,13 @@
 																									"fontname" : "Lato Bold Italic",
 																									"fontsize" : 12.0,
 																									"id" : "obj-179",
+																									"linecount" : 2,
 																									"maxclass" : "comment",
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
 																									"patching_rect" : [ 652.0, 30.0, 95.0, 21.0 ],
 																									"presentation" : 1,
+																									"presentation_linecount" : 2,
 																									"presentation_rect" : [ 160.969772338867188, 2.0, 95.0, 21.0 ],
 																									"text" : "Output Mapping",
 																									"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -65086,9 +65088,11 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"id" : "obj-31",
 													"maxclass" : "meter~",
+													"monotone" : 1,
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"offcolor" : [ 0.16078431372549, 0.16078431372549, 0.16078431372549, 1.0 ],
+													"oncolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 524.0, 510.0, 80.0, 13.0 ],
 													"presentation" : 1,
@@ -65133,9 +65137,11 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"id" : "obj-10",
 													"maxclass" : "meter~",
+													"monotone" : 1,
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"offcolor" : [ 0.16078431372549, 0.16078431372549, 0.16078431372549, 1.0 ],
+													"oncolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 524.0, 300.0, 80.0, 13.0 ],
 													"presentation" : 1,
@@ -77138,8 +77144,8 @@
 									"name" : "SamplerComponentCollecter.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"offset" : [ 0.0, -420.0 ],
-									"patching_rect" : [ 390.0, 379.0, 748.0, 135.0 ],
+									"offset" : [ 0.0, -3920.0 ],
+									"patching_rect" : [ 608.0, 387.0, 810.0, 139.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 38.0, 195.0, 748.0, 135.0 ],
 									"viewvisibility" : 1
@@ -80956,7 +80962,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 135.0, 375.0, 50.0, 36.0 ],
-													"text" : "mouseY 94"
+													"text" : "mouseY 230"
 												}
 
 											}
@@ -104183,7 +104189,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 309.30548095703125, 245.172409057617188, 127.0, 23.0 ],
-													"text" : "958 94 1782 439"
+													"text" : "550 230 1374 575"
 												}
 
 											}
@@ -106463,7 +106469,8 @@
 									"patching_rect" : [ 50.0, 267.0, 45.0, 52.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 824.0, 345.0 ],
-									"proportion" : 0.5
+									"proportion" : 0.5,
+									"rounded" : 24
 								}
 
 							}
@@ -110240,7 +110247,7 @@
 						"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 						"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 						"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+						"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 						"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 						"bgfillcolor_type" : "gradient",
 						"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],
@@ -110257,7 +110264,7 @@
 						"digest" : "",
 						"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+						"locked_bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 						"tags" : "",
 						"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
@@ -110275,60 +110282,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 298.0, 382.0, 139.0, 22.0 ],
 					"text" : "s fromReadFolderButton"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.83 ],
-					"border" : 1,
-					"bordercolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 60.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 380.0, 500.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.83 ],
-					"border" : 1,
-					"bordercolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
-					"id" : "obj-4",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 60.0, 60.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 380.0, 0.0, 380.0, 500.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.83 ],
-					"border" : 1,
-					"bordercolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
-					"id" : "obj-8",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 75.0, 60.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 760.0, 0.0, 380.0, 500.0 ],
-					"proportion" : 0.5
 				}
 
 			}
@@ -110632,20 +110585,6 @@
 			}
 , 			{
 				"name" : "SamplerComponentCollecter.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SamplerComponent.maxpat",
-				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sh.mutex.maxpat",
 				"bootpath" : "~/Documents/Sem WorkFolder/MKM/MKM/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

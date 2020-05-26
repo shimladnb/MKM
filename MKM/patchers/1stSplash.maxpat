@@ -39,6 +39,42 @@
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 960.0, 720.0, 61.0, 22.0 ],
+					"text" : "regexp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 315.0, 335.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 345.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -69,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 285.0, 312.0, 22.0, 22.0 ],
+					"patching_rect" : [ 285.0, 267.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -82,7 +118,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 285.0, 102.0, 22.0 ],
+					"patching_rect" : [ 285.0, 240.0, 102.0, 22.0 ],
 					"text" : "r userSelectTrack"
 				}
 
@@ -168,7 +204,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 342.0, 137.0, 22.0 ],
+					"patching_rect" : [ 315.0, 300.0, 137.0, 22.0 ],
 					"text" : "r userHasSelectedTrack"
 				}
 
@@ -813,7 +849,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 367.0, 110.0, 22.0 ],
+					"patching_rect" : [ 120.0, 315.0, 110.0, 22.0 ],
 					"text" : "r to1stSplashOffset"
 				}
 
@@ -876,7 +912,7 @@
 					"fontsize" : 20.0,
 					"hint" : "",
 					"id" : "obj-12",
-					"items" : "<empty>",
+					"items" : [ "1-Fagot.wav", ",", "2-hobo.wav", ",", "3-Hoorn.wav", ",", "4-klarinet.wav", ",", "5-Piano.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12676,7 +12712,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -12753,7 +12789,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
+					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -12879,8 +12915,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}

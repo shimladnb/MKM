@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673440150,
-	"viewrect" : [ 475.0, 198.0, 300.0, 500.0 ],
+	"modificationdate" : 3673442789,
+	"viewrect" : [ 1255.0, 147.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -26,17 +26,17 @@
 				"local" : 1
 			}
 ,
+			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"sh.mutex.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"1stSplash.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -71,16 +71,6 @@
 ,
 			"TransportStop-01-01.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"German Concert Hall L.aif" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"German Concert Hall R.aif" : 			{
-				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
@@ -119,6 +109,21 @@
 				"local" : 1
 			}
 ,
+			"HIRT_HISSTools_Logo.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"German Concert Hall L.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"German Concert Hall R.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"Arundel Nave.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -130,11 +135,6 @@
 			}
 ,
 			"ConfigureWheel-01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"HIRT_HISSTools_Logo.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

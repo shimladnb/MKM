@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673435631,
+	"modificationdate" : 3673439823,
 	"viewrect" : [ 1318.0, 207.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -36,13 +36,13 @@
 				"local" : 1
 			}
 ,
-			"Convolution Reverb.amxd" : 			{
-				"kind" : "maxforlive",
+			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"1stSplash.maxpat" : 			{
-				"kind" : "patcher",
+			"Convolution Reverb.amxd" : 			{
+				"kind" : "maxforlive",
 				"local" : 1
 			}
 ,
@@ -50,15 +50,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"multiconvolve~.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"HIRT_Credits.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"Arundel Nave.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
 			"TransportPlay-01-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -104,12 +109,22 @@
 				"local" : 1
 			}
 ,
+			"Arundel Nave.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"Microphone-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
 			"ConfigureWheel-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"HIRT_HISSTools_Logo.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -143,77 +158,12 @@
 		}
 ,
 		"externals" : 		{
-			"spectrumdraw~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"iraverage~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"recursivefolder.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"irdisplay~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"morphfilter~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"irstats~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"bufresample~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"multiconvolve~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"spectrumdraw~.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"iraverage~.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"recursivefolder.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"irdisplay~.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"morphfilter~.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"irstats~.mxe64" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"bufresample~.mxe64" : 			{
+			"multiconvolve~.mxe" : 			{
 				"kind" : "object",
 				"local" : 1
 			}

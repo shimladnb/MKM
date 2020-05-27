@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673439823,
-	"viewrect" : [ 1318.0, 207.0, 300.0, 500.0 ],
+	"modificationdate" : 3673440150,
+	"viewrect" : [ 475.0, 198.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -71,6 +71,16 @@
 ,
 			"TransportStop-01-01.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"German Concert Hall L.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"German Concert Hall R.aif" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 ,

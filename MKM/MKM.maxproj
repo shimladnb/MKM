@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673347065,
-	"viewrect" : [ 1489.0, 389.0, 300.0, 500.0 ],
+	"modificationdate" : 3673435631,
+	"viewrect" : [ 1318.0, 207.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,16 +16,6 @@
 				"toplevel" : 1
 			}
 ,
-			"1stSplash.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"SamplerComponent.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"TransportComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -36,12 +26,22 @@
 				"local" : 1
 			}
 ,
+			"SamplerComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sh.mutex.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"Convolution Reverb.amxd" : 			{
 				"kind" : "maxforlive",
 				"local" : 1
 			}
 ,
-			"sh.mutex.maxpat" : 			{
+			"1stSplash.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -54,6 +54,11 @@
 		}
 ,
 		"media" : 		{
+			"Arundel Nave.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"TransportPlay-01-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -89,12 +94,17 @@
 				"local" : 1
 			}
 ,
-			"Microphone-01-smoll.png" : 			{
+			"Mic2-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
 			"horn-01-smoll.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Microphone-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

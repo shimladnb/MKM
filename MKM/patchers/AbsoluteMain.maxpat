@@ -54748,7 +54748,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 780.0, 200.0, 380.0, 463.0 ],
+						"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -54776,6 +54776,18 @@
 						"style" : "",
 						"subpatcher_template" : "cleanSubPatcher",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 960.0, 420.0, 80.0, 22.0 ],
+									"text" : "loadmess 0.3"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.086274509803922, 0.086274509803922, 0.086274509803922, 0.01 ],
 									"id" : "obj-23",
@@ -88262,6 +88274,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-134", 0 ],
 									"source" : [ "obj-209", 0 ]
 								}
@@ -92539,7 +92558,7 @@
 					"name" : "SamplerComponentCollecter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -280.0 ],
+					"offset" : [ 0.0, -560.0 ],
 					"patching_rect" : [ 638.0, 417.0, 810.0, 139.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 189.0, 748.0, 135.0 ],

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 8.0, 115.0, 1920.0, 1037.0 ],
+		"rect" : [ 1072.0, 345.0, 1920.0, 1037.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -149,7 +149,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 987.833755999999994, 596.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.0, 6.0, 144.0, 23.0 ],
+					"presentation_rect" : [ 667.0, 281.0, 144.0, 23.0 ],
 					"text" : "Advanced Audio Options",
 					"textcolor" : [ 0.848496, 0.856888, 0.868666, 1.0 ],
 					"texton" : "Advanced Audio Options",
@@ -25564,7 +25564,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1003.833755999999994, 122.740158000000008, 86.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 319.0, 55.0, 23.0 ],
+					"presentation_rect" : [ 450.0, 138.518310546875, 55.0, 23.0 ],
 					"text" : "Volume",
 					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ]
 				}
@@ -25584,7 +25584,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1618.833755999999994, 467.377975000000049, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.968648910522461, 349.0, 346.0, 20.0 ],
+					"presentation_rect" : [ 448.968648910522461, 168.518310546875, 346.0, 20.0 ],
 					"size" : 1.0
 				}
 
@@ -25829,7 +25829,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 987.833755999999994, 512.740158000000065, 80.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 375.0, 346.0, 30.0 ]
+					"presentation_rect" : [ 450.0, 194.518310546875, 346.0, 30.0 ]
 				}
 
 			}
@@ -25845,7 +25845,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1086.833755999999994, 407.740158000000008, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.968648910522461, 258.0, 77.0, 20.0 ],
+					"presentation_rect" : [ 717.968648910522461, 77.518310546875, 77.0, 20.0 ],
 					"text" : "Test Audio",
 					"textcolor" : [ 0.848496, 0.856888, 0.868666, 1.0 ],
 					"texton" : "Test Audio",
@@ -26619,7 +26619,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 705.0, 323.220459000000005, 98.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 255.0, 155.333328247070313, 23.0 ],
+					"presentation_rect" : [ 450.0, 74.518310546875, 155.333328247070313, 23.0 ],
 					"text" : "Output Device",
 					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ]
 				}
@@ -26693,7 +26693,7 @@
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 286.0, 254.968648910522461, 25.0 ],
+					"presentation_rect" : [ 450.0, 105.518310546875, 254.968648910522461, 25.0 ],
 					"prototypename" : "Lato9",
 					"style" : "AudioStatus_Menu",
 					"textcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ]
@@ -26981,7 +26981,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.5, 52.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 825.0, 345.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 825.0, 316.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -27089,7 +27089,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -27336,7 +27336,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 

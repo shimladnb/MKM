@@ -8079,7 +8079,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1395.0, 498.0, 314.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1886.0, 111.5, 357.0, 26.0 ],
+					"presentation_rect" : [ 1884.0, 123.0, 357.0, 26.0 ],
 					"text" : "4-klarinet.wav",
 					"textcolor" : [ 0.447058823529412, 0.996078431372549, 0.780392156862745, 1.0 ],
 					"textjustification" : 1
@@ -8097,7 +8097,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1395.0, 885.0, 314.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1886.0, 78.5, 357.0, 26.0 ],
+					"presentation_rect" : [ 1884.0, 90.0, 357.0, 26.0 ],
 					"text" : "You've selected:",
 					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
 					"textjustification" : 1
@@ -20103,7 +20103,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.5, 52.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 825.0, 345.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 825.0, 316.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -20122,7 +20122,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.5, 67.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 825.0, 0.0, 825.0, 345.0 ],
+					"presentation_rect" : [ 825.0, 0.0, 825.0, 316.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -20141,7 +20141,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 108.5, 82.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1650.0, 0.0, 825.0, 345.0 ],
+					"presentation_rect" : [ 1650.0, 0.0, 825.0, 316.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}

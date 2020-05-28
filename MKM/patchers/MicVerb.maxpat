@@ -16131,7 +16131,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.5, 52.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 825.0, 345.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 825.0, 316.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -16206,7 +16206,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -16353,7 +16353,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 

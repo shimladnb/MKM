@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673442789,
-	"viewrect" : [ 1255.0, 147.0, 300.0, 500.0 ],
+	"modificationdate" : 3673446165,
+	"viewrect" : [ 1137.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -26,17 +26,22 @@
 				"local" : 1
 			}
 ,
-			"1stSplash.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"sh.mutex.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"MicVerb.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -168,17 +173,17 @@
 		}
 ,
 		"externals" : 		{
+			"multiconvolve~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
 			"multiconvolve~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"multiconvolve~.mxe" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"multiconvolve~.mxe64" : 			{
 				"kind" : "object",
 				"local" : 1
 			}

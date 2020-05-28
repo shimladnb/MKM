@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673446165,
-	"viewrect" : [ 1137.0, 131.0, 300.0, 500.0 ],
+	"modificationdate" : 3673516853,
+	"viewrect" : [ 2002.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -22,6 +22,11 @@
 			}
 ,
 			"SamplerComponentCollecter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"AudioSettings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

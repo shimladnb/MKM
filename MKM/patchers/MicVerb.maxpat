@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 8.0, 106.0, 1920.0, 1037.0 ],
+		"rect" : [ 161.0, 264.0, 1920.0, 1037.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,69 @@
 		"style" : "",
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Lato",
+					"fontsize" : 20.923746764465577,
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 905.0, 77.740158000000008, 260.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 199.0, 32.0 ],
+					"text" : "Microphone Settings",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1122.0, 450.0, 80.0, 22.0 ],
+					"text" : "loadmess 0.4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato",
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 960.0, 195.0, 167.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 377.5, 160.0, 68.0, 21.0 ],
+					"text" : "Reverb Mix",
+					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"floatoutput" : 1,
+					"id" : "obj-22",
+					"maxclass" : "dial",
+					"needlecolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.078431, 0.078431, 0.078431, 0.780392 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1122.0, 477.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 367.5, 82.5, 90.0, 90.0 ],
+					"size" : 1.0,
+					"thickness" : 120.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-80",
@@ -125,25 +188,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 16.52014043165773,
-					"id" : "obj-6",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 568.0, 240.0, 73.0, 46.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 100.0, 26.0 ],
-					"text" : "Mic Settings",
-					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -151,18 +195,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 570.0, 555.0, 70.0, 22.0 ],
 					"text" : "s verbDone"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1122.0, 502.0, 80.0, 22.0 ],
-					"text" : "loadmess 0.4"
 				}
 
 			}
@@ -16188,13 +16220,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -16204,6 +16229,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -16246,6 +16278,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}

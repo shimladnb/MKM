@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673594937,
+	"modificationdate" : 3673596245,
 	"viewrect" : [ 2002.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,11 @@
 			}
 ,
 			"SamplerComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"SpeedSettings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

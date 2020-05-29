@@ -184,7 +184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 825.0, 765.0, 105.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 450.0, 795.0, 289.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 795.0, 289.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 8,

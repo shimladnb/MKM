@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673516853,
+	"modificationdate" : 3673594937,
 	"viewrect" : [ 2002.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,11 +26,6 @@
 				"local" : 1
 			}
 ,
-			"AudioSettings.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"SamplerComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -41,12 +36,17 @@
 				"local" : 1
 			}
 ,
-			"1stSplash.maxpat" : 			{
+			"MicVerb.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"MicVerb.maxpat" : 			{
+			"AudioSettings.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"1stSplash.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -90,6 +90,11 @@
 			}
 ,
 			"TransportForward-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"speed-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

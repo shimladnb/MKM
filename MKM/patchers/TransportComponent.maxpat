@@ -48267,7 +48267,7 @@
 						"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 481.5, 334.0, 133.0, 22.0 ],
+					"patching_rect" : [ 481.5, 334.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 						"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
@@ -48281,7 +48281,7 @@
 						"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
-					"text" : "p getMaxTimeAllTracks"
+					"text" : "p getMaxTimeFirstTrack"
 				}
 
 			}
@@ -48412,7 +48412,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.5, 945.0, 503.0, 49.0 ],
+					"patching_rect" : [ 127.5, 945.0, 504.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 11.0, 424.0, 49.0 ],
 					"text" : "00:00:00:000",

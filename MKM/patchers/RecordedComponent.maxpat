@@ -39,6 +39,112 @@
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 16.52014043165773,
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 591.0, 231.0, 72.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 255.0, 70.5, 26.0 ],
+					"text" : "SAVE",
+					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"id" : "obj-43",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 681.0, 179.5, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 236.0, 70.0, 64.0 ],
+					"proportion" : 0.5,
+					"rounded" : 4
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.68 ],
+					"id" : "obj-50",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 591.0, 181.0, 33.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 236.0, 70.0, 64.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 16.52014043165773,
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1215.0, 635.0, 72.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 425.5, 255.0, 70.5, 26.0 ],
+					"text" : "DONE",
+					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"id" : "obj-48",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1305.0, 583.5, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 425.5, 236.0, 70.0, 64.0 ],
+					"proportion" : 0.5,
+					"rounded" : 4
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.68 ],
+					"id" : "obj-49",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1215.0, 585.0, 33.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 425.5, 236.0, 70.0, 64.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -51,7 +157,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 0.0 ],
 					"buffername" : "recorded",
 					"gridcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-37",
@@ -376,59 +482,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 16.52014043165773,
-					"id" : "obj-47",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1215.0, 635.0, 72.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 377.5, 259.0, 70.5, 26.0 ],
-					"text" : "DONE",
-					"textcolor" : [ 0.996078, 0.996078, 0.996078, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
-					"id" : "obj-48",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1305.0, 583.5, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 377.5, 240.0, 70.0, 64.0 ],
-					"proportion" : 0.5,
-					"rounded" : 4
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.68 ],
-					"id" : "obj-49",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1215.0, 585.0, 33.0, 42.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 377.5, 240.0, 70.0, 64.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Lato",
 					"fontsize" : 20.923746764465577,
 					"id" : "obj-44",
@@ -669,6 +722,18 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 591.0, 285.0, 34.0, 22.0 ],
+					"text" : "write"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -863,6 +928,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -886,6 +958,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -970,6 +1049,9 @@
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"boxgroups" : [ 			{
+				"boxes" : [ "obj-43", "obj-42", "obj-50" ]
+			}
+, 			{
 				"boxes" : [ "obj-48", "obj-47", "obj-49" ]
 			}
  ],

@@ -2,8 +2,8 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673596245,
-	"viewrect" : [ 2002.0, 97.0, 411.0, 900.0 ],
+	"modificationdate" : 3673703309,
+	"viewrect" : [ 1509.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -31,11 +31,6 @@
 				"local" : 1
 			}
 ,
-			"SpeedSettings.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"sh.mutex.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -51,7 +46,17 @@
 				"local" : 1
 			}
 ,
+			"SpeedSettings.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"RecordedComponent.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -84,6 +89,11 @@
 				"local" : 1
 			}
 ,
+			"TransportRecord-01-01-HOT.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"TransportStop-01-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -95,11 +105,6 @@
 			}
 ,
 			"TransportForward-01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"speed-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -125,6 +130,11 @@
 			}
 ,
 			"horn-01-smoll.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"speed-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

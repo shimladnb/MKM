@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 539.0, 233.0, 825.0, 345.0 ],
+		"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,27 @@
 		"style" : "",
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-56",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "RecordedComponent.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 345.0 ],
+					"patching_rect" : [ 630.0, 1230.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -20493,7 +20514,7 @@
 					"name" : "SamplerComponentCollecter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -3360.0 ],
+					"offset" : [ 0.0, -3640.0 ],
 					"patching_rect" : [ 638.0, 417.0, 810.0, 139.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 189.0, 748.0, 135.0 ],
@@ -50399,6 +50420,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "TransportRecord-01-01-HOT.png",
+				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "SamplerComponentCollecter.maxpat",
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
 				"patcherrelativepath" : ".",
@@ -50477,6 +50505,13 @@
 			}
 , 			{
 				"name" : "1stSplash.maxpat",
+				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RecordedComponent.maxpat",
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -54367,7 +54402,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
+		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

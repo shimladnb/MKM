@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3673718474,
+	"modificationdate" : 3674454608,
 	"viewrect" : [ 1509.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,16 +22,6 @@
 			}
 ,
 			"SamplerComponentCollecter.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"SamplerComponent.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sh.mutex.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -57,6 +47,16 @@
 			}
 ,
 			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"SamplerComponent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sh.mutex.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -90,11 +90,6 @@
 			}
 ,
 			"TransportStop-01-01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"CONCERTGBLOGO-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -145,6 +140,11 @@
 			}
 ,
 			"HIRT_HISSTools_Logo.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"CONCERTGBLOGO-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -203,18 +203,31 @@
 		}
 ,
 		"externals" : 		{
-			"multiconvolve~.mxo" : 			{
+			"multiconvolve~.mxe64" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"multiconvolve~.mxe64" : 			{
+			"multiconvolve~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"multiconvolve~.mxe" : 			{
 				"kind" : "object",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"icon.ico" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"Icon.icns" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 

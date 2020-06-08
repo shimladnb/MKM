@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 47.0, 1585.0, 949.0 ],
+		"rect" : [ 539.0, 233.0, 825.0, 345.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -8372,7 +8372,6 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-49",
-					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -8405,7 +8404,6 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-15",
-					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -44371,7 +44369,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.5, 87.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 796.0, 3.0, 25.0, 25.0 ]
+					"presentation_rect" : [ 792.0, 0.0, 33.0, 29.0 ]
 				}
 
 			}
@@ -62626,7 +62624,7 @@
 		"color" : [ 1.0, 0.385962, 0.293389, 1.0 ],
 		"accentcolor" : [ 0.518893, 0.518878, 0.518887, 1.0 ],
 		"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bgcolor" : [ 0.309804, 0.317647, 0.333333, 0.0 ],
 		"editing_bgcolor" : [ 0.875662, 0.875636, 0.87565, 1.0 ],
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.848496, 0.856888, 0.868666, 1.0 ],

@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3674454608,
+	"modificationdate" : 3676620590,
 	"viewrect" : [ 1509.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -84,6 +84,11 @@
 		}
 ,
 		"media" : 		{
+			"FX-01-smoll.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"TransportPlay-01-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1

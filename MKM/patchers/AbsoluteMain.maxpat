@@ -39,6 +39,111 @@
 		"subpatcher_template" : "cleanSubPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "1stSplash.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 630.0, 645.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-56",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "RecordedComponent.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 345.0 ],
+					"patching_rect" : [ 630.0, 1305.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-54",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "SpeedSettings.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 345.0 ],
+					"patching_rect" : [ 630.0, 1140.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-38",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "AudioSettings.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 345.0 ],
+					"patching_rect" : [ 630.0, 975.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "MicVerb.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 345.0 ],
+					"patching_rect" : [ 630.0, 810.0, 270.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 29.0, 825.0, 316.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-2",
@@ -91,111 +196,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 127.0, 105.0, 54.0, 35.0 ],
 					"text" : ";\rmax quit"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "1stSplash.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ -1648.0, 345.0 ],
-					"patching_rect" : [ 630.0, 645.0, 270.0, 154.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 374.0, 825.0, 316.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-56",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "RecordedComponent.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 345.0 ],
-					"patching_rect" : [ 630.0, 1305.0, 270.0, 154.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 374.0, 825.0, 316.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-54",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "SpeedSettings.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 345.0 ],
-					"patching_rect" : [ 630.0, 1140.0, 270.0, 154.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 374.0, 825.0, 316.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-38",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "AudioSettings.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 345.0 ],
-					"patching_rect" : [ 630.0, 975.0, 270.0, 154.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 374.0, 825.0, 316.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "MicVerb.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 345.0 ],
-					"patching_rect" : [ 630.0, 810.0, 270.0, 154.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 374.0, 825.0, 316.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -8429,6 +8429,7 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-49",
+					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -8461,6 +8462,7 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-15",
+					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -8493,6 +8495,7 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-21",
+					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -8525,6 +8528,7 @@
 					"handoff" : "",
 					"hltcolor" : [ 0.0, 0.996078431372549, 0.941176470588235, 0.67843137254902 ],
 					"id" : "obj-108",
+					"ignoreclick" : 1,
 					"maxclass" : "ubutton",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -58692,20 +58696,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SamplerComponent.maxpat",
-				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sh.mutex.maxpat",
-				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ConfigureWheel-01-50px.png",
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/media",
 				"patcherrelativepath" : "../media",
@@ -58728,6 +58718,13 @@
 			}
 , 			{
 				"name" : "speed-01-smoll.png",
+				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FX-01-smoll.png",
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
@@ -58773,13 +58770,6 @@
 				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FX-01-smoll.png",
-				"bootpath" : "~/Documents/Shimla Projects/MKM/MKM/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{

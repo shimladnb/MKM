@@ -2,7 +2,7 @@
 	"name" : "MKM",
 	"version" : 1,
 	"creationdate" : 3672644400,
-	"modificationdate" : 3676620590,
+	"modificationdate" : 3676623192,
 	"viewrect" : [ 1509.0, 97.0, 411.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -84,7 +84,17 @@
 		}
 ,
 		"media" : 		{
-			"FX-01-smoll.png" : 			{
+			"Microphone-01-HOT.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Microphone-01-SELECTED.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Microphone-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -140,6 +150,11 @@
 			}
 ,
 			"speed-01-smoll.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"FX-01-smoll.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
